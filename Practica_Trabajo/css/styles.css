@@ -1,0 +1,42 @@
+    /* ====================================================
+        INDEX
+    ======================================================= */ 
+  .cabecera ol {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        gap: 50px;
+        font-size: 20px;
+    }
+    .cabecera ol li {
+        border-right: 1px solid black;
+        padding-right: 40px;
+    }
+    .cabecera ol li:last-child {
+        border-right: none;
+    }
+    .cabecera {
+        display: flex;
+        background-color: rgb(188, 217, 238);
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-container {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+        max-width: 100px;
+        margin: 60px auto;
+        padding: 0 20px;
+        flex-wrap: wrap; 
+    }
+    .about-image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .about-text {
+        flex:auto;
+    }
